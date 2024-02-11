@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+/* navbar design start ============================================================================================================================================================================================================================================*/
+#MainNavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+#Navbar {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1224px;
+  padding: 30px 10px;
+}
+.nav_logo h1{
+ font-weight: bolder;
+ color: rgb(46, 46, 46);
+}
+.main_nav_links{
+    display: flex;
+}
+.nav_links ul{
+    display: flex;
+}
+.nav_links ul li{
+   list-style: none;
+   /* border: 1px solid rebeccapurple; */
+}
+.nav_links ul li a {
+    text-decoration: none;
+ color: rgb(46, 46, 46);
+ font-weight: bolder;
+ /* border: 1px solid red; */
+ margin: 18px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dark_mode_btn button {
+  border: none;
+  background-color: rgb(230, 230, 230);
+  /* border: 1px solid blue; */
+}
+.dark_mode_btn a:hover img {
+  filter: invert(73%) sepia(64%) saturate(5907%) hue-rotate(196deg)
+    brightness(88%) contrast(86%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar design start ============================================================================================================================================================================================================================================*/
