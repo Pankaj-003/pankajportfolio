@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   background-color: rgb(230, 230, 230);
@@ -13,9 +14,12 @@ body {
   justify-content: center;
   align-items: center;
   /* border: 1px solid black; */
+  z-index: 9999;
+  background-color: rgb(230, 230, 230);
+
 }
 #Navbar {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,22 +50,11 @@ body {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 
 
@@ -79,48 +72,49 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* navbar design start ============================================================================================================================================================================================================================================*/
+/* header design start ============================================================================================================================================================================================================================================*/
+#main-header{
+  border: 1px solid rebeccapurple;
+  /* width: 1224px; */
+margin-top: 90px;
+}
+.header{
+  padding:0 70px;
+}
+.header-social-linksp{
+border: 1px solid black;
+}
+.header-social-images{
+border: 1px solid rgb(117, 20, 20);
+padding: 15px 10px;
+  
+}
+.header-social-images a img{
+  filter: invert(73%) sepia(64%) saturate(5907%) hue-rotate(196deg)
+    brightness(88%) contrast(86%);
+/* border: 1px solid rgb(2, 54, 30); */
+/* padding:0 70px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header design end
+ ============================================================================================================================================================================================================================================*/
