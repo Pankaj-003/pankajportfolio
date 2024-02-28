@@ -19,12 +19,12 @@ body {
 
 }
 #Navbar {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1224px;
-  padding: 30px 10px;
+  padding: 30px 30px;
 }
 .nav_logo h1{
  font-weight: bolder;
@@ -51,7 +51,7 @@ body {
 }
 
 .sticky {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
@@ -75,54 +75,23 @@ body {
 /* navbar design start ============================================================================================================================================================================================================================================*/
 /* header design start ============================================================================================================================================================================================================================================*/
 #main-header{
-  border: 1px solid rebeccapurple;
-margin-top: 90px;
+  /* border: 1px solid rebeccapurple; */
+/* margin-top: 10px; */
 display: flex;
 justify-content: center;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+padding: 80px 10px;
 
 }
 .header{
   padding:0 70px;
-  width: 1224px;
-
+  /* width: 1224px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.header-social-linksp{
-border: 1px solid black;
+.header-social-links{
+/* border: 1px solid black; */
+/* background-color: #007bff; */
 }
 .header-social-images{
 /* border: 1px solid rgb(117, 20, 20); */
@@ -137,16 +106,53 @@ padding: 15px 10px;
 }
 
 .header-details{
-border: 1px solid black;
+/* border: 1px solid black; */
+margin-left: 30px;
 
 }
 
 
+.contact-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* border: 1px solid red; */
+  margin-top: 23px;
+}
 
+.contact-button:hover {
+  background-color: #0056b3;
+}
 
+.contact-button i {
+  margin-right: 10px;
+}
+.header-image{
+  /* border: 1px solid red; */
+  margin-left: 30px;
+}
+#header-details-glowing-text{
+  font-size: 38px;
+  font-weight: 700;
+}
+.header-details h3{
+  color: rgb(77, 77, 77);
+  padding-top: 15px;
 
-
-
+}
+#header-details-sub-details{
+ /* border: 1px solid red; */
+ margin-top: 18px;
+ line-height: 1.4;
+ width: 450px;
+}
 
 
 
