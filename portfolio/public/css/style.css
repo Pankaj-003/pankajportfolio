@@ -7,7 +7,17 @@
 body {
   background-color: rgb(230, 230, 230);
 }
-
+::-webkit-scrollbar{
+  width: 0.5rem;
+}
+::-webkit-scrollbar-track{
+  background-color: #cecece;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #007bff;
+  border-radius: 10px;
+  background-clip: content-box;
+}
 /* navbar design start ============================================================================================================================================================================================================================================*/
 #MainNavbar {
   display: flex;
@@ -166,3 +176,137 @@ margin-left: 30px;
 
 /* header design end
  ============================================================================================================================================================================================================================================*/
+ /* About Section start */
+ .about-main-contanier{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .about-me-container {
+  /* max-width: 800px; */
+  /* margin: 50px auto; */
+  /* padding: 20px; */
+  /* background-color: #fff; */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+  /* border: 1px solid red; */
+  width: 1224px;
+}
+
+.profile-picture {
+  /* display: block; */
+  /* margin: 0 auto 20px; */
+  width: 300px;
+  border-radius: 5px;
+}
+
+.heading {
+  color: #000000;
+  font-size: 40px;
+}
+.about-intro{
+  color: #888888;
+ font-weight: 600;
+ padding-top: 6px;
+ font-size: 18px;
+ /* border: 1px solid red; */
+}
+.details {
+  line-height: 1.6;
+  color: #666;
+  /* border: 1px solid red; */
+  text-align: left;
+  padding-left: 80px;
+}
+.about-image-details{
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  padding: 90px 200px;
+}
+.name,
+.occupation,
+.interests,
+.passion,
+.email,
+.social-media {
+  font-weight: bold;
+  color: #3d3d3d; /* Teal color */
+}
+.download-cv-btn{
+  /* border: 1px solid red; */
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 30px;
+  /* position: relative; */
+
+}
+.download-cv-btn button{
+  border: none;
+ 
+  color: #e0e0e0;
+  background-color: #0056b3;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  /* position: relative; */
+  /* padding-right: 35px; */
+  cursor: pointer;
+ 
+}
+.download-cv-btn button:hover{
+  background-color: #0368d4;
+
+}
+.BTN{
+  position: relative;
+}
+.svgIcon {
+  fill: #e0e0e0;
+  font-size: 15px;
+}
+.icon2 {
+  position: absolute;
+  width: 18px;
+  height: 5px;
+  border-bottom: 2px solid #e0e0e0;
+  border-left: 2px solid #e0e0e0;
+  border-right: 2px solid #e0e0e0;
+  /* top: 0; */
+  bottom: 0;
+  margin-bottom: 15px;
+  /* left: 22; */
+  /* margin-right:20px ; */
+  right: 22px;
+}
+.BTN:hover {
+  background-color: rgb(150, 94, 255);
+  transition-duration: .3s;
+}
+
+.BTN:hover .icon2 {
+  border-bottom: 2px solid rgb(235, 235, 235);
+  border-left: 2px solid rgb(235, 235, 235);
+  border-right: 2px solid rgb(235, 235, 235);
+}
+
+.BTN:hover .svgIcon {
+  fill: rgb(255, 255, 255);
+  animation: slide-in-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+ /* About Section End */
+ 

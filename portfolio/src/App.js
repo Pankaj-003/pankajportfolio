@@ -7,11 +7,12 @@ import About from './Components/About';
 import Services from './Components/services';
 import Contact from './Components/Contact';
 import Skills from './Components/skills';
-
+import GoToTop from './Components/GoToTop';
 function App() {
   return (
     <Router>
       <Navbar />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -19,7 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} /> 
         <Route path="/skills" element={<Skills />} />
       </Routes>
-    
+      <GoToTop/>
     </Router>
    
   );
